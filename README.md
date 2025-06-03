@@ -67,7 +67,7 @@ from infer import predict_customer
 customer = [650, 45, 1, 20000, 1, 1, 1, 75000, 0, 0, False, False, True, False, False]
 result = predict_customer(customer)
 print("Churn Prediction:", "Yes" if result == 1 else "No")
-
+```
 
 ##  Project Structure
 
