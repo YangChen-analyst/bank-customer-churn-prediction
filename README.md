@@ -6,6 +6,10 @@ This project uses real-world banking-style customer data to predict churn likeli
 
 Churn is a major threat to subscription-based or fintech companies. This project identifies high-risk customers and builds a predictive model to inform retention strategy.
 
+## Business Problem Statement
+
+Our bank has recently experienced a high churn rate among retail banking customers, posing a threat to long-term revenue and customer loyalty. To address this, we aim to develop a machine learning–based predictive model within the next 4 weeks that can accurately identify customers at high risk of churn, using historical behavioral and demographic data. The model will also highlight key drivers of attrition—such as inactivity, age, and product holdings—through explainable AI techniques like SHAP. In addition to identifying current high-risk customers, this model will be used to evaluate new incoming customers, enabling the bank to proactively tailor onboarding and engagement strategies. This solution will provide actionable insights to guide targeted retention campaigns, with the goal of reducing churn by at least 5% over the next quarter and retaining high-value customers more effectively.
+
 ##  Business Recommendations Summary
 
 Based on our findings, we suggest:
@@ -22,6 +26,7 @@ Based on our findings, we suggest:
 - Jupyter Notebook
 - Matplotlib / Seaborn for visualization
 - SHAP for explainability
+- Tableau for stakeholder dashboard
 
 > To install dependencies:
 pip install -r requirements.txt
